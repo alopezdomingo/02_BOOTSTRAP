@@ -1,0 +1,16 @@
+h1{
+	color: blue;
+	font-size: 30px;
+}
+h2{
+	color: red;
+}
+p{
+	color:green;
+}
+img{
+	width: 20%;
+}
+.prueba{
+	background-image: url("../img/tback.jpg"); 
+}
