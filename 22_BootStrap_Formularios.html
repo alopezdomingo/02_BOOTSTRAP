@@ -22,9 +22,64 @@
 				<div class="form-group">
 					<label for="nombre">Nombre:</label>
 					<input type="text" name="nombre" id="nombre" class="form-control">
-					<label for="apellido">Apellido:</label>
+					<small class="form-text text-danger">El nombre debe contener, al menos, tres caracteres.</small>
+					<label for="apellido">Apellidos:</label>
 					<input type="text" name="apellido" id="apellido" class="form-control">
+					<small class="form-text text-muted">Texto muted.</small>
 				</div>
+				<div class="form-group">
+					<h3>Diferentes tamaños</h3>
+					<label for="nombre" class="form-control-lg">Nombre large:</label>
+					<input type="text" name="nombre" id="nombre" class="form-control-lg">
+					<small class="form-text text-danger">Tamaño large.</small><br>
+					<label for="apellido">Apellidos small:</label>
+					<input type="text" name="apellido" id="apellido" class="form-control-sm">
+					<small class="form-text text-muted">Tamaño small.</small>
+				</div>
+				<div class="form-group">
+					<label for="provincia">Seleccione provincia:</label>
+					<select class="form-control" id="provincia" name="provincia">
+						<option>Albacete</option>
+						<option>Ciudad Real</option>
+						<option>Cuenca</option>
+						<option>Guadalajara</option>
+						<option>Toledo</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="interes">Seleccione varios intereses (tecla control):</label>
+					<select multiple class="form-control" id="interes" name="interes">
+						<option>Cursos</option>
+						<option>Ofertas</option>
+						<option>Promociones</option>
+						<option>Descuentos</option>
+					</select>
+				</div>
+				<div class="form-check">
+					<input type="checkbox" id="conocimiento1" name="conocimiento1">
+					<label class="form-check-label" for="conocimiento1">Informática</label><br>				
+					<input type="checkbox" id="conocimiento2" name="conocimiento2">
+					<label class="form-check-label" for="conocimiento2">Idiomas</label><br>					
+					<input type="checkbox" id="conocimiento3" name="conocimiento3">
+					<label class="form-check-label" for="conocimiento3">Primeros auxilios</label><br>
+				</div>
+
+				<div class="form-check form-check-inline">
+					<input type="radio" name="sexo" id="hombre" class="form-check-input" >
+					<label class="form-check-label" for="hombre">Hombre</label> 
+				</div>
+				<div class="form-check form-check-inline">
+					<input type="radio" name="sexo" id="mujer" class="form-check-input" >
+					<label class="form-check-label" for="mujer">Mujer</label>
+				</div><br><br><center>
+				<div class="form-control-inline">
+					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="reset" class="btn btn-primary">Reset</button>
+				</div><br>
+				<div class="form-group">
+					<button type="submit" class="btn btn-primary" title="texto alternativo del botón"><i class="fas fa-save"></i></button>
+					<button type="reset" class="btn btn-primary" title="texto alternativo del botón"><i class="fas fa-trash-alt"></i></button>
+				</div></center>
 			</form>
 		</div>
 		</div>
